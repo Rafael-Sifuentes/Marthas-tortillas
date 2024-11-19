@@ -69,7 +69,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <!-- COMPONENT CSS -->
     <link rel="stylesheet" href="assets/styles.css">
-    <title>Martha's Tortillas | Home</title>
+    <title>Martha's Tortillas | Hockley Tx</title>
     <meta name="description" content=""> 
     <meta title="keywords" content="">
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQEBkvJzJBIl3qhWivrIAdkpjuGhgLpjs&callback=initMap" async defer></script>
@@ -95,7 +95,7 @@
     <!-- SITE NAVIGATION ========================================================================== -->
     <nav class="nav" id="nav">
         <div class="nav-header container">
-            <div class="img-container"><img src="assets/imgs/nav-img.png" alt=""></div>
+            <div onclick="scrollToSection('home')" class="img-container"><img src="assets/imgs/nav-img.png" alt=""></div>
             <button onclick="toggleNav()" class="nav-button"><i class="ri-menu-fold-line"></i></button>
         </div>
 
@@ -397,7 +397,7 @@
                     <div class="contact-header flex-column">
                         <h4 class="section-subtitle contact-subtitle">Location and hours</h4>
                         <h2 class="section-title contact-title">Find Martha's<br>tortillas</h2>
-                        <p class="p-text">18700 Beaker Road, Hockley TX 77447<br>Open 8:00 AM - 6:30 PM</p>
+                        <p class="p-text">18700 Beaker Road suite 104, Hockley TX 77447<br>Open 8:00 AM - 6:30 PM</p>
                     </div>
 
                     <div class="contact-buttons-container">
@@ -413,8 +413,32 @@
 
     </main>
 
-    <a href="https://etxsoftware.com/" target="_blank" class="etx">Website designed and developed by ETX Design</a>
-    
+    <!-- FOOTER SECTION =========================================================================== -->
+    <footer class="footer section">
+        <div class="footer-container container">
+            <div class="footer-frame-one">
+                <div class="company-name-container"><div class="img-container"><img src="assets/imgs/Favicon.png" alt="Company logo"></div><p class="company-name">MARTHAS TORTILLAS</p></div>
+
+                <div class="credits-container flex-column">
+                    <p class="year">2024</p>
+                    <p class="rights">All rights reserved</p>
+                    <a href="https://etxsoftware.com" target="_blank" class="etx">Website designed & developed by <br><b>ETX SOFTWARE DEVELOPMENT &#169</b></a>
+                </div>
+            </div>
+
+            <div class="footer-frame-two">
+                <ul class="footer-nav-list">
+                    <li class="footer-list-item"><a href="#home">HOME</a></li>
+                    <li class="footer-list-item"><a href="#featured">FEATURED</a></li>
+                    <li class="footer-list-item"><a href="#info-section">TORTILLAS</a></li>
+                    <li class="footer-list-item"><a href="#cta">ORDER ONLINE</a></li>
+                    <li class="footer-list-item"><a href="#menu">MENU</a></li>
+                    <li class="footer-list-item"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- ========================================================================================== -->
 
 
 
