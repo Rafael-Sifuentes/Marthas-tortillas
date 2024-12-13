@@ -204,6 +204,22 @@ img{
 .transition{
     transition: all .4s ease-in-out;
 }
+
+.section-spacer-top{
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section-spacer-bottom{
+    width: 100%;
+    height: 48px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 /*-============================================================================================- */
 
 /* CSS COMPONENTS =============================================================================- */
@@ -447,7 +463,8 @@ img{
 
 /* FEATURED SECTION ============================================================================- */
 .featured{
-    padding-top: 8rem;
+    padding-top: 11rem;
+    padding-bottom: 0;
     color: var(--text-color-b);
 }
 
@@ -505,6 +522,10 @@ img{
 /*-============================================================================================- */
 
 /* INFO SECTION ===============================================================================- */
+.info-section{
+    padding-top: 11rem;
+}
+
 .info-section-container{
     display: flex;
     flex-direction: column;
@@ -626,6 +647,10 @@ img{
 /*-============================================================================================- */
 
 /* MENU SECTION ===============================================================================- */
+.menu-t{
+    padding-top: 80px;
+}
+
 .menu-container{
     gap: var(--gap-5);
 }
@@ -726,6 +751,10 @@ img{
 /*-============================================================================================- */
 
 /* CONTACT SECTION ============================================================================- */
+.contact{
+    padding-top: 80px;
+}
+
 .contact-container{
     display: flex;
     flex-direction: column;
@@ -923,6 +952,10 @@ img{
     .menu-buttons-container{
         align-self: center;
         flex-direction: row;
+    }
+
+    .contact{
+        padding-top: 0;
     }
 
     .contact-container{
