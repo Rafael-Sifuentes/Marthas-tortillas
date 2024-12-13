@@ -527,14 +527,14 @@ img{
 .info-frame-one{
     gap: var(--mar-3);
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .info-buttons-container{
     display: flex;
-    flex-direction: column;
-    align-self: center;
-    align-items: center;
+    /* flex-direction: column; */
+    /* align-self: center;
+    align-items: center; */
     gap: var(--gap-2);
 }
 
