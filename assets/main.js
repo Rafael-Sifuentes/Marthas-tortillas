@@ -121,6 +121,13 @@ function scrollToSection(sectionId) {
   }
 }
 
+function scrollToSection(sectionId) {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' }); 
+  }
+}
+
 function goToUber(){
   var url = 'https://www.ubereats.com/store/marthas-taqueria/lqVLEDzOWLOkc3gFXcLGfQ?diningMode=PICKUP&ps=1&sc=SEARCH_SUGGESTION'
   window.open(url, '_blank')
